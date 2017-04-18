@@ -1121,6 +1121,7 @@ $(document).on('submit', '.large-group-contact-form', function(ev){
       submitButton.attr('disabled', null);
       $("button.close").click();
       alert("Thank you, your form has been successfully submited.");
+      form.reset();
     },
     failure: function(code, response){
       submitButton.val(originalText);

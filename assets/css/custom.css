@@ -721,18 +721,6 @@ section.module.parallax-sign-up {
   padding: 20px 80px;
 }
 
-#how-to-play .blurb {
-  padding: 10px 13px;
-  background-color: ;
-  margin-bottom: 40px;
-  font-size: 10pt;
-  font-weight: normal;
-  line-height: 2.0;
-  text-align: left;
-  height: 299px;
-  font-family:sans-serif;
-}
-
 .section-header-line {
   text-align: center;
    border-color: #D5C87D;
@@ -787,10 +775,11 @@ section.module.parallax-sign-up {
 
 #how-to-play .icon {
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 #how-to-play .step {
-  width: 232px;
+  width: 327px;
   padding: 15px;
   display: inline-block;
   vertical-align: top;
@@ -801,13 +790,14 @@ section.module.parallax-sign-up {
   padding-right: 18px;
   padding-left: 18px;
   padding-top: 40px;
+  height: 570px;
 }
 
 #how-to-play .clear {
   clear: both;
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1330px) {
   #how-to-play {
     padding-left: 20px;
     padding-right: 20px;
@@ -820,12 +810,6 @@ section.module.parallax-sign-up {
   display: block;
   max-width: 300px;
   }
-
-  #how-to-play .blurb {
-    height:auto;
-  }
-
-
 
 }
 
@@ -1388,11 +1372,9 @@ p.loca-blurb {
 #footer {
   background-color: #3D2000;
   color: #FFFCE4;
-  font-size: 15pt;
-  font-family: Roboto, sans-serif;
-  padding: 30px 70px;
   line-height:1;
-  padding-left:150px;
+  padding-top:10px;
+  padding-left: 5px;
 }
 
 #footer p {
@@ -1828,11 +1810,7 @@ p.loca-blurb {
   #waiting-room {
     background-size: auto 100%;
     background-position: -660px top; }
-  
-  #footer {
-    padding-left:40px;
-  }  
-}
+  }
 
 @media screen and (max-width:325px){ 
   #waiting-room {
